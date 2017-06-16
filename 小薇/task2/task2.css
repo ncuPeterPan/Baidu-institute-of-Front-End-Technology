@@ -1,0 +1,155 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+header.header-navigation img {
+    float: left;
+    height: 60px;
+    margin-left: 22px;
+}
+
+.header-navigation {
+    height: 60px;
+    width: 100%;
+    background-color: rgb(51, 51, 51);
+}
+
+header.header-navigation nav ul li {
+    float: left;
+    text-align: center;
+    margin-left: 16px;
+    margin-top: 18px;
+}
+
+header.header-navigation nav ul li:first-child {
+    margin-left: 1100px;
+}
+
+article {
+    border: 1px solid rgb(159, 159, 159);
+    margin: 20px 20px;
+    padding: 20px 20px;
+    box-shadow: 5px 5px 5px rgb(159, 159, 159);
+}
+
+article h2 {
+    font-size: 18px;
+    color: rgb(111, 111, 111)
+}
+
+article aside {
+    font-size: 15px;
+    color: rgb(111, 111, 111)
+}
+
+article h1 {
+    font-size: 25px;
+}
+
+section {
+    border: 1px solid rgb(159, 159, 159);
+    margin: 20px 20px;
+    padding: 20px 20px;
+    box-shadow: 5px 5px 5px rgb(159, 159, 159);
+}
+
+section div {
+    border: 1px solid;
+    border-color: rgb(159, 159, 159);
+    width: 400px;
+    text-align: center;
+    margin-top: 50px;
+    height: 300px;
+}
+
+section div p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.table-article li {
+    margin-left: 40px;
+    font-weight: bold;
+}
+
+.table-article table {
+    width: 95%;
+    margin: 5px auto;
+    border-collapse: collapse;
+    padding: 0px;
+}
+
+.table-article table td {
+    border: 1px solid;
+    border-color: grey;
+}
+
+.table-article th {
+    background-color: black;
+    color: wheat;
+}
+
+tr:last-of-type {
+    background-color: grey;
+}
+
+aside h3 {
+    border-left: 3px solid #ccc;
+    padding-left: 10px;
+}
+
+
+/*表单*/
+
+form {
+    display: table;
+    padding: 10px;
+}
+
+form textarea {
+    width: 500px;
+    height: 200px;
+}
+
+div.tableRow {
+    display: table-row;
+}
+
+div.tableRow p {
+    display: table-cell;
+    padding: 3px;
+    vertical-align: top;
+}
+
+div.tableRow p:first-child {
+    text-align: right;
+    padding-left: 300px;
+}
+
+p.prompt {
+    color: #ccc;
+}
+
+#subt {
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    background-color: #4169e1;
+    color: white;
+    font-size: 100%;
+    border-radius: 10px;
+}
+
+footer {
+    height: 80px;
+    background-color: #696969;
+    color: white;
+    font-size: 80%;
+}
+
+#copyright {
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+}
